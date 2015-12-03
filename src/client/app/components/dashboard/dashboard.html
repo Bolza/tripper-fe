@@ -1,0 +1,10 @@
+<div class="container">
+    <h1>Dashboard</h1>
+    <div class="searchInputBox">
+        <input id="searchInput" type="text" name="searchInput" value="" size=50>
+    </div>
+    <div id="geo-map" bolza-map style="width:500px;height:500px;"></div>
+    <ul>
+        <li ng-repeat="place in vm.tour">{{place.name}}</li>
+    </ul>
+</div>
